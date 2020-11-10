@@ -15,9 +15,13 @@ const TodoList = () => {
   const [showAdd, setShowAdd] = useState(false);
 
   const addTodo = (value) => {
-    const addedTodo = [...todos, { text: value, isCompleted: false }];
+    if (todos.length < 10) {
+      const addedTodo = [...todos, { text: value, isCompleted: false }];
 
-    setTodos(addedTodo);
+      setTodos(addedTodo);
+    } else {
+      alert("Anda telah mencapai batas maksimum todo yaitu 10 todo");
+    }
   };
 
   const completeTodo = (index) => {
