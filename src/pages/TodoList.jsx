@@ -31,10 +31,10 @@ const TodoList = () => {
     setTodos(addedTodo);
   };
 
-  const clearTodos = () => setTodos([]);
+  const clearTodos = () => !showAdd && setTodos([]);
   const showAddToggle = () => setShowAdd(!showAdd);
 
-  console.log(showAdd);
+  // console.log(showAdd);
 
   return (
     <Paper>

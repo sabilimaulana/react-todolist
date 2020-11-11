@@ -65,7 +65,8 @@ html {
 }
 
 .header-title {
-  flex: 1;
+  /* flex: 1; */
+  width: 52%;
   text-align: center;
 
   color: var(--main-black-color);
@@ -75,6 +76,7 @@ html {
 }
 
 .header-btn {
+  width: 24%;
   font-size: 1.8rem;
   font-family: "Bungee", sans-serif;
 
@@ -174,4 +176,11 @@ html {
 .add-button-placeholder-text {
   font-family: "Bungee", sans-serif;
   font-size: 24px;
+}
+
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
 }
