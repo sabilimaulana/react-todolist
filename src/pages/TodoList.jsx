@@ -4,7 +4,7 @@ import Paper from "../components/paper/PaperClass";
 // import Header from "../components/header/Header";
 import Header from "../components/header/HeaderClass";
 import TodoForm from "../components/todoform/TodoFormClass";
-import Todos from "../components/todos/Todos";
+import Todos from "../components/todos/TodosClass";
 
 import Container from "../layout/Container";
 
