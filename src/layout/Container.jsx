@@ -48,8 +48,8 @@ Container.propTypes = {
   flexDirection: PropTypes.oneOf([
     "row",
     "row-reverse",
-    "coloum",
-    "coloum-reverse"
+    "column",
+    "column-reverse"
   ]),
   flexWrap: PropTypes.oneOf(["nowrap", "wrap", "wrap-reverse"]),
   justifyContent: PropTypes.oneOf([

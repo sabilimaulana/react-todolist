@@ -25,7 +25,6 @@ const Header = ({ showAddToggle, showAdd, clearTodos }) => {
         </Item>
         <Item flex={2}>
           <h1 css={styles.headerTitle(theme)}>Todo lists</h1>
-          <Link to="/about">Ke halaman about</Link>
         </Item>
         <Item flex={1} align="right">
           <Button onClick={clearTodos} text="Clear" color="red" align="right" />
